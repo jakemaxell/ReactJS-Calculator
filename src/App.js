@@ -56,30 +56,35 @@ function App() {
       <textarea readOnly={true} className='screen' value={value}/>
 
       <div className='buttons'>
+        
         <div className='buttonRow'>
           <Button buttonSymbol={"AC"}/>
           <Button buttonSymbol={"+/-"}/>
           <Button buttonSymbol={"%"}/>
           <Button buttonSymbol={"/"}/>
         </div>
+
         <div className='buttonRow'>
           <Button buttonSymbol={7}/>
           <Button buttonSymbol={8}/>
           <Button buttonSymbol={9}/>
           <Button buttonSymbol={"*"}/>
         </div>
+
         <div className='buttonRow'>
         <Button buttonSymbol={4}/>
         <Button buttonSymbol={5}/>
         <Button buttonSymbol={6}/>
         <Button buttonSymbol={"-"}/>
         </div>
+
         <div className='buttonRow'>
         <Button buttonSymbol={1}/>
         <Button buttonSymbol={2}/>
         <Button buttonSymbol={3}/>
         <Button buttonSymbol={"+"}/>
         </div>
+
         <div className='buttonRow'>
           <Button buttonSymbol={0}/>
           <Button buttonSymbol={"."}/>
