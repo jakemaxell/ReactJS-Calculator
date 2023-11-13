@@ -17,13 +17,13 @@ function App() {
           if(value.charAt(0) !== "-"){setValue("-" + value)};
           break;
         case "%":
-          if(!value.includes(buttonSymbol)){setValue(value + buttonSymbol)};
+          if(!value.toString().includes(buttonSymbol)){setValue(value + buttonSymbol)};
           break;
         case 0:
           if(value !== ""){setValue(value + buttonSymbol.toString())};
           break;
         case ".":
-          if(!value.includes(buttonSymbol)){setValue(value + buttonSymbol)};
+          if(!value.toString().includes(buttonSymbol)){setValue(value + buttonSymbol)};
           break;  
         case "=":
           try{
