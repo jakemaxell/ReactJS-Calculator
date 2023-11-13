@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.screen {
+  resize: none;
+  margin: 5px;
+  width: 200px;
+  height: 50px;
+}
+
+.button {
+  margin: 1.5px;
+  width: 50px;
+  height: 50px;
+}
+
+.special-button {
+  margin-right: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+.buttons {
+  justify-content: space-between;
+}
